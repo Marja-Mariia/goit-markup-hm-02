@@ -1,0 +1,51 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-menu-list {
+}
+.header-menu-item {
+}
+.header-menu-link {
+}
+.content {
+}
+.address-content-list {
+}
+.address-content-item {
+}
+
+.hero {
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hero-title {
+}
+.hero-primery-btn {
+  //styleName: Button Text;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
