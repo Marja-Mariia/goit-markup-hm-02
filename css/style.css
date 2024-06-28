@@ -13,12 +13,25 @@ a {
 .header {
 }
 .header-navigation {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+
 }
 .header-logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  
 }
-.logo-accent-color {
-  background: #4D5AE5;
-
+.logo-accent {
+color: #4D5AE5;
 }
 .header-menu-list {
 }
@@ -55,4 +68,7 @@ a {
   line-height: 24px;
   letter-spacing: 0.04em;
   text-align: left;
+}
+button {
+  cursor: pointer;
 }
