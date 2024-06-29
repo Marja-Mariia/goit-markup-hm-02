@@ -21,6 +21,11 @@ button {
   color: #ffffff;
 }
 
+.btn:hover
+.btn:focus{
+  background-color: #404BBF;
+}
+
 /* address {
 font-style: normal;
 }*/
@@ -75,6 +80,16 @@ font-style: normal;
   letter-spacing: 0.02em;
   text-align: left;
 }
+
+.header-menu-item{
+color: #2e2f42;
+}
+
+.header-menu-item:hover,
+.header-menu-item:focus{
+ color: #404bbf;
+}
+
 .contacts .address {
   font-style: normal;
 }
@@ -135,12 +150,6 @@ font-style: normal;
   background-color: #ffffff;
 }
 
-.features-list {
-}
-
-.features-item {
-}
-
 .features-subtitle {
   font-size: 20px;
   font-weight: 500;
@@ -148,7 +157,8 @@ font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.features-item-text .portfolio-content {
+.features-item-text 
+.portfolio-content {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
@@ -169,9 +179,6 @@ font-style: normal;
   line-height: 1.11;
   text-transform: capitalize;
   color: #2e2f42;
-}
-
-.team-list {
 }
 
 .team-item {
