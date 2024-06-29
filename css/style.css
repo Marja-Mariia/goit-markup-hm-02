@@ -42,7 +42,9 @@ font-style: normal;
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:focus,
+.header-contact-link:focus,
+.header-contact-link:hover {
   color: #404bbf;
 }
 
@@ -68,6 +70,9 @@ font-style: normal;
   letter-spacing: 0.02em;
   text-align: left;
 }
+.contacts .address {
+  font-style: normal;
+}
 
 .address-content-list {
   font-family: "Roboto", sans-serif;
@@ -78,6 +83,12 @@ font-style: normal;
   text-align: left;
 }
 
+.header-contact-item,
+.header-contact-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 /*-----hero-----*/
 .hero {
   background: #2e2f42;
@@ -86,11 +97,11 @@ font-style: normal;
 .hero-title {
   font-family: "Roboto", sans-serif;
   font-size: 56px;
-  font-weight: 700;
-  line-height: 60px;
+  font-weight: 500;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  line-height: 1.07;
 }
 
 .hero-primary-btn {
