@@ -116,6 +116,15 @@ box-shadow: 0px 4px 4px 0px #00000026;
   white-space: nowrap;
   overflow: hidden;
 }
+.section-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
 
 .features-list {
 }
