@@ -23,16 +23,20 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
-
 }
-.header-logo {
+
+.logo {
   font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #2e2f42;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #4D5AE5;
+}
+
+.logo-part:{
+  color: #2E2F42;
 }
 .title-accent{
   style-color: #4d5ae5;
