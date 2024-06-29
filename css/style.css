@@ -78,7 +78,18 @@ font-family: "Roboto", sans-serif;
   text-align: center;
   color: #ffffff;
 }
-.hero-primery-btn {
+
+.hero-primary-btn:{
+font-family:  "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.04em;
+text-align: left;
+
+}
+.hero-primary-btn:hover,
+.hero-primary-btn:focus {
   width: Hug (169px)px;
   height: Hug (56px)px;
   top: 428px;
