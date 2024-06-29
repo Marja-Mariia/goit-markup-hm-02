@@ -148,7 +148,7 @@ font-style: normal;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.features-item-text {
+.features-item-text .portfolio-content {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
@@ -199,12 +199,31 @@ font-style: normal;
   color: #434455;
 }
 
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.portfolio-contrnt {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .footer {
   background: #2e2f42;
 }
 
 .footer-logo .logo-part {
   color: #f4f4fd;
+  line-height: 1.17;
+  text-transform: uppercase;
 }
 
 .footer-subtitle {
