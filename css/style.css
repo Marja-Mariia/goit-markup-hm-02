@@ -21,15 +21,16 @@ button {
   color: #ffffff;
 }
 
-.btn:hover
-.btn:focus{
+.button:hover,
+.button:focus{
   background-color: #404BBF;
 }
 
-/* address {
+.address {
 font-style: normal;
-}*/
+}
 .header {
+ color: #2e2f42;
 }
 
 .header-navigation {
@@ -54,7 +55,9 @@ font-style: normal;
 .contacts-link:hover,
 .contacts-link:focus,
 .header-contact-link:focus,
-.header-contact-link:hover {
+.header-contact-link:hover,
+.header-menu-item:hover,
+.header-contact-item:focus {
   color: #404bbf;
 }
 
@@ -185,8 +188,6 @@ color: #2e2f42;
   background-color: #ffffff;
 }
 
-.team-image {
-}
 .team-item-title {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
