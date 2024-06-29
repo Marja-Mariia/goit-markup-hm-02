@@ -33,7 +33,11 @@ font-style: normal;
   color: #e7e9fc;
 }
 
-.header-menu-link {
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
 }
 
 .logo {
