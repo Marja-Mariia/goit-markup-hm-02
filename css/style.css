@@ -12,15 +12,13 @@ a {
   text-decoration: none;
 }
 
-.button{
-  cursor: pointer;
-}
-
 .hero-primery-btn {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #4D5AE5;
+  cursor: pointer;
 }
 
 
