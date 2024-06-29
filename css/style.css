@@ -86,13 +86,12 @@ font-style: normal;
   text-align: left;
 }
 
-.header-menu-item{
-color: #2e2f42;
-}
-
-.header-menu-item:hover,
-.header-menu-item:focus{
+.header-menu-list:hover,
+.header-menu-list:focus{
  color: #404bbf;
+}
+.header-menu-list {
+  color: #2e2f42;
 }
 
 .contacts .address {
