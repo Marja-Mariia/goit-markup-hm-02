@@ -14,6 +14,10 @@ button {
   cursor: pointer;
 }
 
+/* address {
+font-style: normal;
+}*/
+
 .header-navigation {
   font-family: 
   font-size: 16px;
@@ -39,15 +43,7 @@ button {
   color: #2e2f42;
 }
 
-.menu-list {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  text-align: left;
-}
-.header-menu-item {
+.header-menu-list {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -64,6 +60,7 @@ button {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
 /*-----hero-----*/
 .hero {
  background: #2E2F42;
@@ -79,32 +76,14 @@ font-family: "Roboto", sans-serif;
   color: #ffffff;
 }
 
-.hero-primary-btn:{
-font-family:  "Roboto", sans-serif;
+.hero-primary-btn{
 font-size: 16px;
 font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.04em;
-text-align: left;
-
+color-text:#ffffff ;
 }
 .hero-primary-btn:hover,
 .hero-primary-btn:focus {
-  width: Hug (169px)px;
-  height: Hug (56px)px;
-  top: 428px;
-  left: 636px;
-  padding: 16px 32px 16px 32px;
-  gap: 10px;
-  border-radius: 4px 0px 0px 0px;
-  opacity: 0px;
-  background: #4D5AE5;
-color-text: #ffffff ;  
-box-shadow: 0px 4px 4px 0px #00000026;
-
-}
-
-.features {
+color:#4D5AE5;
 }
 .visually-hidden {
   position: absolute;
@@ -116,6 +95,7 @@ box-shadow: 0px 4px 4px 0px #00000026;
   white-space: nowrap;
   overflow: hidden;
 }
+
 .section-title {
   font-weight: 600;
   font-size: 24px;
@@ -126,14 +106,31 @@ box-shadow: 0px 4px 4px 0px #00000026;
   color: #111;
 }
 
+/*-----features-----*/
+.features {
+  background-color: #ffffff;
+}
+
 .features-list {
 }
+
 .features-item {
 }
+
 .features-subtitle {
+font-size: 20px;
+font-weight: 500;
+color:#2E2F42;
+
 }
 .features-item-text {
+font-size: 16px;
+letter-spacing: 0.02em;
+color: #434455;
 }
+/*------    ------*/
+/*-------team------*/
+
 .team {
 }
 .team-title {
