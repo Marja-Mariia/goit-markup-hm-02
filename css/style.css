@@ -55,12 +55,14 @@ font-style: normal;
 .contacts-link:hover,
 .contacts-link:focus,
 .header-contact-link:focus,
-.header-contact-link:hover,
-.header-menu-item:hover,
-.header-contact-item:focus {
+.header-contact-link:hover {
   color: #404bbf;
 }
 
+.header-menu-item:hover,
+.header-contact-item:focus{
+ background-color: #404BBF;
+}
 .logo {
   font-family: Raleway, sans-serif;
   font-size: 18px;
