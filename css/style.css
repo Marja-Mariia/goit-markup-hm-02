@@ -147,7 +147,7 @@ a {
 
 .hero-primary-btn:hover,
 .hero-primary-btn:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .section-title {
