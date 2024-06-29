@@ -99,7 +99,7 @@ a {
 
 .header-menu-list:hover,
 .header-menu-list:focus {
-  color: #404bbf;
+  background: #404bbf;
 }
 .header-menu-list {
   color: #2e2f42;
