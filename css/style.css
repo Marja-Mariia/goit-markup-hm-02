@@ -10,6 +10,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .header {
 }
 .header-navigation {
@@ -30,7 +34,7 @@ text-align: left;
   text-align: left;
   color: #2e2f42;
 }
-.logo-title{
+.title-accent{
   style-color: #4d5ae5;
 }
 
@@ -39,6 +43,13 @@ text-align: left;
 .menu-list {
 }
 .header-menu-item {
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+
 }
 .menu-item {
 }
@@ -70,15 +81,22 @@ text-align: left;
   letter-spacing: 0.04em;
   text-align: left;
 }
-button {
-  cursor: pointer;
-}
+
 .hero-primery-btn {
 }
 .features {
 }
-.visually-hidden {
-}
+.visually-hidden  {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
 .features-list {
 }
 .features-item {
