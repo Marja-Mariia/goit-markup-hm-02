@@ -26,7 +26,7 @@ font-style: normal;
   letter-spacing: 0.02em;
   text-align: left;
   border-bottom: 1px;
-  solid: #E7E9FC;
+  color: #E7E9FC;
 }
 
 .logo {
@@ -77,7 +77,7 @@ font-family: "Roboto", sans-serif;
 }
 
 .hero-primary-btn{
-color-text: #FFFFFF;
+color: #FFFFFF;
 font-weight: 500;
 font-size: 16px;
 }
@@ -133,7 +133,9 @@ color: #434455;
 /*-------team------*/
 
 .team {
+  background: rgba(244, 244, 253, 1);
 }
+
 .team-title {
 font-size: 36px;
 font-weight: 700;
@@ -144,17 +146,8 @@ text-align: center;
 
 .team-list {
 }
-.team-item {
-  width: Hug (264px)px;
-  height: Hug (380px)px;
-  top: 1248px;
-  left: 156px;
-  padding: 0px 0px 32px 0px;
-  gap: 32px;
-  border-radius: 0px 0px 4px 4px;
-  opacity: 0px;
-  background: #FFFFFF;
 
+.team-item {
 }
 .team-image {
   width: 264px;
@@ -181,4 +174,30 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-align: center;
 color: rgba(46, 47, 66, 1);
+}
+
+.footer {
+  background: rgba(46, 47, 66, 1);
+}
+.logo {
+    font-family: Raleway, sans-serif ;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #4d5ae5;
+}
+
+  .footer-logo .logo-part {
+    color: #2e2f42;
+}
+
+.footer-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
