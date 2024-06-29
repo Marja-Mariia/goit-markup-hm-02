@@ -155,11 +155,8 @@ font-style: normal;
 
 .team-item {
 }
+
 .team-image {
-  width: 264px;
-  height: 260px;
-  gap: 0px;
-  opacity: 0px;
 }
 .team-item-title {
   font-family: "Roboto", sans-serif;
