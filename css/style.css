@@ -25,16 +25,13 @@ button {
 } */
 
 .hero-primery-btn {
+  font-family: inherit;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  color: #ffffff;
-  background-color: #4D5AE5;
-  font-size: 16px;
   letter-spacing: 0.04em;
-}
-
-
-/* address {
+  color: #ffffff;
+} /* address {
   font-style: normal;
 } */
 
@@ -50,7 +47,7 @@ button {
 }
 
 .header {
- color: #2e2f42;
+  color: #2e2f42;
 }
 
 .header-navigation {
@@ -74,8 +71,8 @@ button {
 }
 
 .header-menu-link:hover,
-.header-menu-link:focus{
-  color: #404bbf
+.header-menu-link:focus {
+  color: #404bbf;
 }
 
 .nav-link:hover,
@@ -88,8 +85,8 @@ button {
 }
 
 .header-menu-item:hover,
-.header-contact-item:focus{
- background-color: #404BBF;
+.header-contact-item:focus {
+  background-color: #404bbf;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -115,8 +112,8 @@ button {
 }
 
 .header-menu-list:hover,
-.header-menu-list:focus{
- color: #404bbf;
+.header-menu-list:focus {
+  color: #404bbf;
 }
 .header-menu-list {
   color: #2e2f42;
@@ -164,7 +161,7 @@ button {
 
 .hero-primary-btn:hover,
 .hero-primary-btn:focus {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 .section-title {
@@ -182,7 +179,7 @@ button {
   background-color: #ffffff;
 }
 
-.features-item-text{
+.features-item-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -194,8 +191,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.features-item-text 
-.portfolio-content {
+.features-item-text .portfolio-content {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #434455;
@@ -258,9 +254,9 @@ button {
   color: #2e2f42;
 }
 
-.portfolio-subcontent{
+.portfolio-subcontent {
   line-height: 1.5;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
 .footer {
