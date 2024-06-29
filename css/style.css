@@ -14,6 +14,7 @@ a {
 
 .button {
   cursor: pointer;
+  background-color: #4d5ae5;
 }
 
 /* .hero-primary-btn:is(:hover, :focus, :active) {
@@ -58,22 +59,11 @@ a {
   color: #2e2f42;
 }
 
-.header-menu-link:hover,
-.header-menu-link:focus {
+.hero-primary-btn:hover,
+.hero-primary-btn:focus {
   color: #404bbf;
 }
 
-.nav-link:hover,
-.nav-link:focus,
-.header-contact-link:focus,
-.header-contact-link:hover {
-  color: #404bbf;
-}
-
-.header-menu-item:hover,
-.header-contact-item:focus {
-  background-color: #404bbf;
-}
 .logo {
   font-family: Raleway, sans-serif;
   font-size: 18px;
