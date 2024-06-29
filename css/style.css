@@ -12,8 +12,11 @@ a {
   text-decoration: none;
 }
 
-.hero-primery-btn {
+.button{
   cursor: pointer;
+}
+
+.hero-primery-btn {
   font-weight: 500;
   background-color: #4d5ae5;
   line-height: 1.5;
@@ -21,9 +24,10 @@ a {
   color: #ffffff;
 }
 
-.address {
-font-style: normal;
-}
+
+/* address {
+  font-style: normal;
+} */
 
 .visually-hidden {
   position: absolute;
@@ -151,7 +155,7 @@ font-style: normal;
 
 .hero-primary-btn:hover,
 .hero-primary-btn:focus {
-  background: #404bbf;
+  color: #404BBF;
 }
 
 .section-title {
