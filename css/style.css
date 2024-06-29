@@ -12,13 +12,25 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
+/* .hero-primary-btn:is(:hover, :focus, :active) {
+  color: #404BBF;
+} */
+/* 
+.hero-primary-btn:focus {
+  color: #404BBF;
+} */
+
 .hero-primery-btn {
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4D5AE5;
-  cursor: pointer;
+  font-size: 16px;
+  letter-spacing: 0.04em;
 }
 
 
