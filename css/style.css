@@ -12,18 +12,13 @@ a {
   text-decoration: none;
 }
 
-button {
+.hero-primery-btn {
   cursor: pointer;
   font-weight: 500;
   background-color: #4d5ae5;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-}
-
-.button:hover,
-.button:focus{
-  background-color: #404BBF;
 }
 
 .address {
