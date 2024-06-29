@@ -25,13 +25,14 @@ a {
 } */
 
 .hero-primery-btn {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-} /* address {
+}
+/* address {
   font-style: normal;
 } */
 
@@ -59,14 +60,12 @@ a {
   border-bottom: 1px;
   color: #e7e9fc;
 }
+
 .nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.header-menu-link {
   color: #2e2f42;
 }
 
@@ -77,8 +76,6 @@ a {
 
 .nav-link:hover,
 .nav-link:focus,
-.contacts-link:hover,
-.contacts-link:focus,
 .header-contact-link:focus,
 .header-contact-link:hover {
   color: #404bbf;
