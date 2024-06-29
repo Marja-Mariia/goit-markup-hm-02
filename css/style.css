@@ -164,15 +164,18 @@ font-style: normal;
 .team-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
   letter-spacing: 0.02em;
   text-align: center;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-list {
 }
 
 .team-item {
+  background-color: #ffffff;
 }
 
 .team-image {
@@ -185,7 +188,6 @@ font-style: normal;
   letter-spacing: 0.02em;
   text-align: center;
   color: rgba(46, 47, 66, 1);
-  background-color: #ffffff;
 }
 .team-item-subtitle {
   font-family: "Roboto", sans-serif;
@@ -194,7 +196,7 @@ font-style: normal;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #434453;
+  color: #434455;
 }
 
 .footer {
