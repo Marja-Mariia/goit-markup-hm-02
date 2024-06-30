@@ -16,11 +16,6 @@ a {
   cursor: pointer;
 }
 
-.hero-primary-btn:hover,
-.hero-primary-btn:focus {
-  color:  #404BBF
-}
-
 .hero-primery-btn {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -29,6 +24,11 @@ a {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4D5AE5;
+}
+
+.hero-primary-btn:hover,
+.hero-primary-btn:focus {
+  color:  #404BBF
 }
 
 .header {
@@ -71,7 +71,7 @@ a {
   color: #2e2f42;
 }
 
-.header-menu-list {
+.header-menu-item {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -81,8 +81,8 @@ a {
   color: #2e2f42;
 }
 
-.header-menu-list:hover,
-.header-menu-list:focus {
+.header-menu-item:hover,
+.header-menu-item:focus {
   background: #404bbf;
 }
 
