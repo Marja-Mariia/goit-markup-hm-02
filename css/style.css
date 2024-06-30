@@ -14,7 +14,16 @@ a {
 
 .button {
   cursor: pointer;
+  background-color: #4d5ae5;
 }
+
+/* .hero-primary-btn:is(:hover, :focus, :active) {
+  color: #404BBF;
+} */
+/* 
+.hero-primary-btn:focus {
+  color: #404BBF;
+} */
 
 .hero-primery-btn {
   font-family: "Roboto", sans-serif;
@@ -23,13 +32,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background-color: #4D5AE5;
 }
-
-.hero-primary-btn:hover,
-.hero-primary-btn:focus {
-  color:  #404BBF
-}
+/* address {
+  font-style: normal;
+} */
 
 .header {
   color: #2e2f42;
@@ -52,8 +58,9 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-link:hover,
-.nav-link:focus{
+
+.hero-primary-btn:hover,
+.hero-primary-btn:focus {
   color: #404bbf;
 }
 
@@ -71,34 +78,41 @@ a {
   color: #2e2f42;
 }
 
-.header-menu-item {
+.header-menu-list {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
+}
+
+.header-menu-list:hover,
+.header-menu-list:focus {
+  background: #404bbf;
+}
+.header-menu-list {
   color: #2e2f42;
 }
 
-.header-menu-item:hover,
-.header-menu-item:focus {
-  background: #404bbf;
-}
-
-.address {
+.contacts .address {
   font-style: normal;
 }
 
-.address-link{
+.address-content-list {
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height:1.5;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.header-contact-item,
+.header-contact-link {
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-.address-link:hover, 
-.address-link:focus {
-  color: #404BBF;
 }
 /*-----hero-----*/
 .hero {
@@ -159,7 +173,7 @@ a {
   color: #434455;
   line-height: 1.5;
 }
-
+/*------    ------*/
 /*-------team------*/
 
 .team {
