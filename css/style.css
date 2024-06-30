@@ -14,11 +14,11 @@ a {
 
 .button {
   cursor: pointer;
-  background-color: #4d5ae5;
 }
+
 .hero-primary-btn:hover,
 .hero-primary-btn:focus {
-  color: #404bbf;
+  color:  #404BBF
 }
 
 .hero-primery-btn {
@@ -28,6 +28,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  background-color: #4D5AE5;
 }
 
 .header {
@@ -50,6 +51,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.nav-link:hover,
+.nav-link:focus{
+  color: #404bbf;
 }
 
 .logo {
@@ -85,14 +90,14 @@ a {
   font-style: normal;
 }
 
-.address-link-item {
+.address-link{
   font-size: 16px;
   line-height:1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address-link-item:hover, 
-.address-link-item:focus {
+.address-link:hover, 
+.address-link:focus {
   color: #404BBF;
 }
 /*-----hero-----*/
@@ -154,7 +159,7 @@ a {
   color: #434455;
   line-height: 1.5;
 }
-/*------    ------*/
+
 /*-------team------*/
 
 .team {
