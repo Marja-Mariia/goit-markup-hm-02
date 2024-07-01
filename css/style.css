@@ -12,10 +12,13 @@ a {
   text-decoration: none;
 }
 
-.button {
+button {
   cursor: pointer;
 }
 
+address {
+  font-size: inherit;
+}
 /* HEADER */
 .header {
 }
@@ -61,9 +64,6 @@ a {
 }
 
 /* ADDRESS */
-.address {
-  font-size: normal;
-}
 
 .address-list {
 }
