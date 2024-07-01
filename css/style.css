@@ -17,7 +17,7 @@ button {
 }
 
 address {
-  font-size: inherit;
+  font-style: normal;
 }
 /* HEADER */
 .header {
@@ -43,8 +43,8 @@ address {
   color: #2e2f42;
 }
 
-.header-menu-list:hover,
-.header-menu-list:focus {
+.header-menu-item:hover,
+.header-menu-item:focus {
   color: #404bbf;
 }
 
