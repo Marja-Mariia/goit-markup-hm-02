@@ -147,6 +147,7 @@ address {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  
 }
 .section-title {
 }
@@ -155,6 +156,7 @@ address {
 }
 
 .team-item {
+  background-color: #ffffff;
 }
 
 .team-item-image {
