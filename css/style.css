@@ -45,10 +45,15 @@ address {
   color: #2e2f42;
 }
 
-.header-menu-list:hover {
+.menu-item {
+  color: #2e2f42;
+}
+
+.menu-item:hover {
   color: #404bbf;
 }
-.header-menu-list:focus {
+
+.menu-item:focus {
   color: #404bbf;
 }
 
