@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -198,6 +198,7 @@ a {
 .footer {
   background-color: #2e2f42;
 }
+
 .footer-logo {
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -209,9 +210,11 @@ a {
 }
 .logo {
 }
+
 .logo-part {
   color: #f4f4fd;
 }
+
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
