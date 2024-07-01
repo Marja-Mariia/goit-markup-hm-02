@@ -23,7 +23,9 @@ address {
 .header {
 }
 
-.header-nav {
+.header-nav:hover,
+.header-nav:focus {
+  color: #404bbf;
 }
 
 .header-logo {
