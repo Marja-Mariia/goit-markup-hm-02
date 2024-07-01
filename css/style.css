@@ -138,7 +138,7 @@ address {
 
 /* SECTION TEAM */
 .team {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 .team-title {
   font-size: 36px;
@@ -150,13 +150,16 @@ address {
 }
 .section-title {
 }
+
 .team-list {
-  background-color: #ffffff;
 }
+
 .team-item {
 }
+
 .team-item-image {
 }
+
 .team-item-title {
   font-size: 20px;
   font-weight: 500;
@@ -164,6 +167,7 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .team-item-subtitle {
   font-size: 16px;
   line-height: 1.5;
