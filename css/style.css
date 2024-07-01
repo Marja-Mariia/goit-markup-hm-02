@@ -76,7 +76,6 @@ a {
 }
 
 .hero {
-  background-color: #2e2f42;
 }
 .hero-title {
   font-size: 56px;
@@ -84,6 +83,7 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  background-color: #2e2f42;
 }
 .hero-button {
   background-color: #4d5ae5;
