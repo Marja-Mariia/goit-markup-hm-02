@@ -46,15 +46,6 @@ address {
 }
 
 .menu-item {
-  color: #2e2f42;
-}
-
-.menu-item:hover {
-  color: #404bbf;
-}
-
-.menu-item:focus {
-  color: #404bbf;
 }
 
 .header-menu-list {
@@ -64,6 +55,14 @@ address {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: #2e2f42;
+}
+
+.header-menu-list:hover {
+  color: #404bbf;
+}
+
+.header-menu-list:focus {
+  color: #404bbf;
 }
 
 .header-menu-link {
