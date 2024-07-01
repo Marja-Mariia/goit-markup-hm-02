@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  font-size: 700;
 }
 
 ul {
@@ -84,7 +85,7 @@ a {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.hero-primery-btn {
+.hero-button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -95,8 +96,8 @@ a {
   cursor: pointer;
 }
 
-.hero-primery-btn:hover,
-.hero-primery-btn:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
