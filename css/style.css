@@ -48,7 +48,7 @@ address {
 .header-menu-list:hover {
   color: #404bbf;
 }
-> .header-menu-list:focus {
+.header-menu-list:focus {
   color: #404bbf;
 }
 
