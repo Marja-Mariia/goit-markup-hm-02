@@ -1,7 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
 }
 
 ul {
@@ -19,8 +17,10 @@ a {
 /* HEADER */
 .header {
 }
+
 .header-nav {
 }
+
 .header-logo {
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -30,15 +30,20 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .logo {
 }
+
 .logo-part {
   color: #2e2f42;
 }
+
 .header-menu-list {
 }
+
 .header-menu-item {
 }
+
 .header-menu-link {
   font-size: 16px;
   font-weight: 500;
@@ -57,10 +62,13 @@ a {
 .address {
   font-size: normal;
 }
+
 .address-list {
 }
+
 .address-item {
 }
+
 .address-link {
   font-size: 16px;
   line-height: 1.5;
