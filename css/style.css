@@ -48,9 +48,7 @@ address {
 .header-menu-list {
 }
 
-.header-menu-item:hover,
-.header-menu-item:focus {
-  color: #404bbf;
+.header-menu-item {
 }
 
 .header-menu-link {
@@ -62,7 +60,9 @@ address {
   color: #2e2f42;
 }
 
-.header-menu-link {
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
 }
 
 /* ADDRESS */
