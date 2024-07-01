@@ -23,9 +23,7 @@ address {
 .header {
 }
 
-.header-nav:hover,
-.header-nav:focus {
-  color: #404bbf;
+.header-nav {
 }
 
 .header-logo {
@@ -36,9 +34,6 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-
-.logo {
 }
 
 .header-logo-part {
@@ -63,12 +58,6 @@ address {
 
 .header-menu-link:focus {
   color: #404bbf;
-}
-
-.header-menu-link {
-}
-
-.header-menu-link {
 }
 
 /* ADDRESS */
